@@ -12,7 +12,7 @@ public class BaseBall {
 
     private BaseBall(){}
 
-    public BaseBall getInstacne(){
+    public static BaseBall getInstacne(){
         BaseBall baseBall = new BaseBall();
         baseBall.initGoalNum();
         return baseBall;
